@@ -22,9 +22,7 @@ class Solution:
 
             print("res returned: ", res)
             return res
-
-
-
+        
 
         ROWS, COLS = len(grid), len(grid[0])
         visit = [[False for row in range(ROWS)] for col in range(COLS)]
